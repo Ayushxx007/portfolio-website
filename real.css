@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.right li,.left {
+    color:white;
+}
+.left{
+    font-size:1.8rem;
+    margin-right:150px;
+    transition: color .7s ease;
+}
+.left:hover{    
+   
+    color:red;
+    
+
+}
+
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height:80px;
+    font-family: "poppins",sans-serif;
+    
+    
+}
+nav ul {
+    display:flex;
+   
+    justify-content: center;
+    align-items: center;
+}
+nav ul li{
+    margin: 0px 20px;
+    list-style-type:none;
+}
+#one{
+    color:white;
+    font-family: "poppins",sans-serif;
+    display:flex;
+    margin:23px 0;
+    justify-content: space-around;
+    align-items: center;
+    height:550px;
+}
+.leftsection{
+    margin-left:30px;
+   
+    font-size:2rem;
+    font-weight:700;
+}
+.rightsection{
+    margin-right:110px;
+   
+}
+
+.rightsection img{
+    transition: transform 0.5s ease;
+}
+.rightsection img:hover{
+    transform: scale(1.1);
+}
+
+#one > div{
+    width:40%;
+
+}
+.rightsection img{
+    width:125%;
+}
+#ayush{
+   
+}
+li a{
+    color:white;
+    text-decoration: none;
+    transition: color 0.4s ease;
+}
+li a:hover{
+    color:red;
+
+}
+#element{
+   color:red;
+}
+
+/*----------------------------------------------------------------------------------*/
+
+
+
+
+
+.gridcontainer{
+    display:grid;
+    background-color:black;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    
+
+}
+
+#techstack{
+    color:white;
+    font-size:2rem;
+    margin-left:80px;
+    font-family:"poppins",sans-serif;
+    margin-bottom:10px;
+
+}
+
+.griditem{
+    max-width:300px;
+   height:200px;
+    border: 1px solid black;
+    background-color:black;
+    margin:10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    transition: background-color 0.5s ease-in-out;
+    
+    border-radius:10px;
+   
+    
+    
+}
+.item1 div img{
+    height:100px;
+    width:100px;
+    object-fit:cover;
+    }
+    .item2 div img{
+        height:100px;
+        width:100px;
+        object-fit:cover;
+        }
+
+        .item3 div img{
+           
+            height:100px;
+    width:100px;
+            object-fit:cover;
+            }
+
+            .item4 div img{
+               
+                height:100px;
+    width:100px;
+                object-fit:cover;
+                }
+
+                .item5 div img{
+                    height:100px;
+                    width:100px;
+                    object-fit:cover;
+                    }
+
+                    .item6 div img{
+                        height:100px;
+                        width:100px;
+                        object-fit:cover;
+                        }
+
+                        .item7 div img{
+                            height:100px;
+                            width:100px;
+                              object-fit:cover;
+                            }
+
+                            .item8 div img{
+                               
+                                height:100px;
+    width:100px;
+                                object-fit:cover;
+                                }
+
+                                .item9 div img{
+                                    height:100px;
+    width:100px;
+                                    object-fit:cover;
+                                    }
+
+                                    .item10 div img{
+                                        height:100px;
+                                        width:100px;
+                                        object-fit:cover;
+                                        }
+
+                                        .item11 div img{
+                                            height:100px;
+                                            width:100px;
+                                            object-fit:cover;
+                                            }
+
+                                            .item12 div img{
+                                                height:100px;
+                                                width:100px;
+                                                object-fit:cover;
+                                                }
+
+                                                .item13 div img{
+                                                    height:100px;
+                                                    width:100px;
+                                                    border-radius:10px;
+                                                    object-fit:cover;
+                                                    }
+
+                                                    .item14 div img{
+                                                        height:100px;
+                                                        width:100px;
+                                                        object-fit:cover;
+                                                        }
+                                                        .item15 div img{
+                                                            height:100px;
+                                                            width:100px;
+                                                            object-fit:cover;
+                                                            }
+                                                            .item16 div img{
+                                                                height:100px;
+                                                                width:100px;
+                                                                object-fit:cover;
+                                                                }
+                                                                .item17 div img{
+                                                                    height:100px;
+                                                                    width:100px;
+                                                                    object-fit:cover;
+                                                                    }
+                                                                    .item18 div img{
+                                                                        height:100px;
+    width:100px;
+                                                                        object-fit:cover;
+                                                                        }
+                                                                 .item19 div img{
+                                                                            height:100px;
+                                                                            width:100px;
+                                                                            object-fit:cover;
+                                                                            }
+                                                                            .item20 div img{
+                                                                                height:100px;
+                                                                                width:100px;
+                                                                                object-fit:cover;
+                                                                                }
+
+.item1:hover{
+    background-color:grey;
+    
+}
+.item2:hover{
+    background-color: red;
+}
+.item3:hover{
+    background-color:grey;
+}
+.item4:hover{
+    background-color: red;
+}
+.item5:hover{
+    background-color:grey;
+}
+.item6:hover{
+    background-color: red;
+}
+.item7:hover{
+    background-color: grey;
+}
+.item8:hover{
+    background-color: red;
+}
+.item9:hover{
+    background-color: grey;
+}
+.item10:hover{
+    background-color: red;
+}
+.item11:hover{
+    background-color: grey;
+}
+.item12:hover{
+    background-color: red;
+}
+.item13:hover{
+    background-color: grey;
+}
+.item14:hover{
+    background-color: red;
+}
+.item15:hover{
+    background-color: grey;
+}
+.item16:hover{
+    background-color: red;
+}
+.item17:hover{
+    background-color: grey;
+}
+.item18:hover{
+    background-color: red;
+}
+.item19:hover{
+    background-color: grey;
+}
+.item20:hover{
+    background-color: red;
+}
+                                                    
+
