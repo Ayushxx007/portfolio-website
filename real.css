@@ -90,10 +90,119 @@ li a:hover{
 }
 
 /*----------------------------------------------------------------------------------*/
+.containercoding{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    transition: color 0.4s ease;
+
+  
+}
+
+
+
+.coding{
+    width:30%;
+    
+    height:300px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:40px;
+    
+}
+
+#para{
+    color:white;
+    font-family:"poppins",sans-serif;
+    padding:25px;
+    text-align:justify;
+   
+}
+
+
+
+.coding div img{
+    height:80%;
+    width:80%;
+
+}
+
+#leetcode{
+    scale:.50;
+    padding-left:50px;
+}
+#codeforces{
+    padding-left:15px;
+}
+
+#coding{
+    color:white;
+    font-family:"poppins",sans-serif;
+    padding:25px;
+    padding-left:80px;
+    transition: color 0.4s ease;
+
+}
+
+#coding:hover{
+    color:red;
+}
+div #hover:hover{
+    background-color:red;
+    cursor:pointer;
+}
+div #hover{
+    border-radius:10px;
+   
+    transition: background-color 0.4s ease;
+}
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------------------------------------------------------*/
+
+#intro{
+    color:white;
+    font-family:"poppins",sans-serif;
+    padding-left:50px;
+    padding-right:50px;
+    padding-top:30px;
+    padding-bottom:30px;
+    border:2px solid red;
+    border-radius:40px;
+    text-align:justify;
+
+}
 
 .gridcontainer{
     display:grid;
@@ -111,8 +220,16 @@ li a:hover{
     margin-left:80px;
     font-family:"poppins",sans-serif;
     margin-bottom:10px;
+    transition: color 0.4s ease;
+ 
 
 }
+#techstack:hover{
+    color:red;
+    
+}
+
+
 
 .griditem{
     max-width:300px;
@@ -165,6 +282,7 @@ li a:hover{
                         height:100px;
                         width:100px;
                         object-fit:cover;
+                        border-radius:10px;
                         }
 
                         .item7 div img{
