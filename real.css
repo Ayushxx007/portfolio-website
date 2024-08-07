@@ -394,6 +394,7 @@ div #hover{
     background-color: grey;
 }
 .item10:hover{
+    cursor:pointer;
     background-color: red;
 }
 .item11:hover{
